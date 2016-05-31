@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25070BA505D1F12CEE82D18B /* libPods-SWebViewImageDownload.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB58E251290C49127A5CCF41 /* libPods-SWebViewImageDownload.a */; };
+		BF9356F71CFD5FC600129B82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9356F61CFD5FC600129B82 /* main.m */; };
+		BF9356FA1CFD5FC600129B82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9356F91CFD5FC600129B82 /* AppDelegate.m */; };
+		BF9356FD1CFD5FC700129B82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9356FC1CFD5FC700129B82 /* ViewController.m */; };
+		BF9357001CFD5FC700129B82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9356FE1CFD5FC700129B82 /* Main.storyboard */; };
+		BF9357021CFD5FC700129B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF9357011CFD5FC700129B82 /* Assets.xcassets */; };
+		BF9357051CFD5FC700129B82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9357031CFD5FC700129B82 /* LaunchScreen.storyboard */; };
+		BF9357101CFD5FC800129B82 /* SWebViewImageDownloadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF93570F1CFD5FC800129B82 /* SWebViewImageDownloadTests.m */; };
+		BF93571B1CFD5FC800129B82 /* SWebViewImageDownloadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF93571A1CFD5FC800129B82 /* SWebViewImageDownloadUITests.m */; };
+		BF93572C1CFD63D700129B82 /* SWebViewImageDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = BF93572B1CFD63D700129B82 /* SWebViewImageDownload.m */; };
+		BF9357321CFD6B3600129B82 /* html.html in Resources */ = {isa = PBXBuildFile; fileRef = BF9357311CFD6B3600129B82 /* html.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF93570C1CFD5FC800129B82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF9356EA1CFD5FC500129B82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF9356F11CFD5FC500129B82;
+			remoteInfo = SWebViewImageDownload;
+		};
+		BF9357171CFD5FC800129B82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF9356EA1CFD5FC500129B82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF9356F11CFD5FC500129B82;
+			remoteInfo = SWebViewImageDownload;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		711422949785A5040EFCEB51 /* Pods-SWebViewImageDownload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWebViewImageDownload.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SWebViewImageDownload/Pods-SWebViewImageDownload.debug.xcconfig"; sourceTree = "<group>"; };
+		8A2623B0622FBA42D2B065FF /* Pods-SWebViewImageDownload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWebViewImageDownload.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWebViewImageDownload/Pods-SWebViewImageDownload.release.xcconfig"; sourceTree = "<group>"; };
+		AB58E251290C49127A5CCF41 /* libPods-SWebViewImageDownload.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SWebViewImageDownload.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9356F21CFD5FC500129B82 /* SWebViewImageDownload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWebViewImageDownload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9356F61CFD5FC600129B82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF9356F81CFD5FC600129B82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF9356F91CFD5FC600129B82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF9356FB1CFD5FC600129B82 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF9356FC1CFD5FC700129B82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF9356FF1CFD5FC700129B82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF9357011CFD5FC700129B82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF9357041CFD5FC700129B82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF9357061CFD5FC700129B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF93570B1CFD5FC800129B82 /* SWebViewImageDownloadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWebViewImageDownloadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF93570F1CFD5FC800129B82 /* SWebViewImageDownloadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWebViewImageDownloadTests.m; sourceTree = "<group>"; };
+		BF9357111CFD5FC800129B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF9357161CFD5FC800129B82 /* SWebViewImageDownloadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWebViewImageDownloadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF93571A1CFD5FC800129B82 /* SWebViewImageDownloadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWebViewImageDownloadUITests.m; sourceTree = "<group>"; };
+		BF93571C1CFD5FC800129B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF93572A1CFD63D700129B82 /* SWebViewImageDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWebViewImageDownload.h; sourceTree = "<group>"; };
+		BF93572B1CFD63D700129B82 /* SWebViewImageDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWebViewImageDownload.m; sourceTree = "<group>"; };
+		BF9357311CFD6B3600129B82 /* html.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = html.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF9356EF1CFD5FC500129B82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25070BA505D1F12CEE82D18B /* libPods-SWebViewImageDownload.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9357081CFD5FC800129B82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9357131CFD5FC800129B82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96CB253819147551AF817F58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				711422949785A5040EFCEB51 /* Pods-SWebViewImageDownload.debug.xcconfig */,
+				8A2623B0622FBA42D2B065FF /* Pods-SWebViewImageDownload.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B073C10C34D613688EEA09B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB58E251290C49127A5CCF41 /* libPods-SWebViewImageDownload.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF9356E91CFD5FC500129B82 = {
+			isa = PBXGroup;
+			children = (
+				BF9356F41CFD5FC600129B82 /* SWebViewImageDownload */,
+				BF93570E1CFD5FC800129B82 /* SWebViewImageDownloadTests */,
+				BF9357191CFD5FC800129B82 /* SWebViewImageDownloadUITests */,
+				BF9356F31CFD5FC500129B82 /* Products */,
+				96CB253819147551AF817F58 /* Pods */,
+				B073C10C34D613688EEA09B4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF9356F31CFD5FC500129B82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF9356F21CFD5FC500129B82 /* SWebViewImageDownload.app */,
+				BF93570B1CFD5FC800129B82 /* SWebViewImageDownloadTests.xctest */,
+				BF9357161CFD5FC800129B82 /* SWebViewImageDownloadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF9356F41CFD5FC600129B82 /* SWebViewImageDownload */ = {
+			isa = PBXGroup;
+			children = (
+				BF9356F81CFD5FC600129B82 /* AppDelegate.h */,
+				BF9356F91CFD5FC600129B82 /* AppDelegate.m */,
+				BF9356FB1CFD5FC600129B82 /* ViewController.h */,
+				BF9356FC1CFD5FC700129B82 /* ViewController.m */,
+				BF93572A1CFD63D700129B82 /* SWebViewImageDownload.h */,
+				BF93572B1CFD63D700129B82 /* SWebViewImageDownload.m */,
+				BF9356FE1CFD5FC700129B82 /* Main.storyboard */,
+				BF9357011CFD5FC700129B82 /* Assets.xcassets */,
+				BF9357031CFD5FC700129B82 /* LaunchScreen.storyboard */,
+				BF9357061CFD5FC700129B82 /* Info.plist */,
+				BF9357311CFD6B3600129B82 /* html.html */,
+				BF9356F51CFD5FC600129B82 /* Supporting Files */,
+			);
+			path = SWebViewImageDownload;
+			sourceTree = "<group>";
+		};
+		BF9356F51CFD5FC600129B82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF9356F61CFD5FC600129B82 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF93570E1CFD5FC800129B82 /* SWebViewImageDownloadTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF93570F1CFD5FC800129B82 /* SWebViewImageDownloadTests.m */,
+				BF9357111CFD5FC800129B82 /* Info.plist */,
+			);
+			path = SWebViewImageDownloadTests;
+			sourceTree = "<group>";
+		};
+		BF9357191CFD5FC800129B82 /* SWebViewImageDownloadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF93571A1CFD5FC800129B82 /* SWebViewImageDownloadUITests.m */,
+				BF93571C1CFD5FC800129B82 /* Info.plist */,
+			);
+			path = SWebViewImageDownloadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF9356F11CFD5FC500129B82 /* SWebViewImageDownload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF93571F1CFD5FC800129B82 /* Build configuration list for PBXNativeTarget "SWebViewImageDownload" */;
+			buildPhases = (
+				A73E20B54775FAE88D62E53D /* 📦 Check Pods Manifest.lock */,
+				BF9356EE1CFD5FC500129B82 /* Sources */,
+				BF9356EF1CFD5FC500129B82 /* Frameworks */,
+				BF9356F01CFD5FC500129B82 /* Resources */,
+				2F320EC6833A4A1175FC45BE /* 📦 Embed Pods Frameworks */,
+				C63869D917A269BECED44027 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SWebViewImageDownload;
+			productName = SWebViewImageDownload;
+			productReference = BF9356F21CFD5FC500129B82 /* SWebViewImageDownload.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF93570A1CFD5FC800129B82 /* SWebViewImageDownloadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF9357221CFD5FC800129B82 /* Build configuration list for PBXNativeTarget "SWebViewImageDownloadTests" */;
+			buildPhases = (
+				BF9357071CFD5FC800129B82 /* Sources */,
+				BF9357081CFD5FC800129B82 /* Frameworks */,
+				BF9357091CFD5FC800129B82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF93570D1CFD5FC800129B82 /* PBXTargetDependency */,
+			);
+			name = SWebViewImageDownloadTests;
+			productName = SWebViewImageDownloadTests;
+			productReference = BF93570B1CFD5FC800129B82 /* SWebViewImageDownloadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF9357151CFD5FC800129B82 /* SWebViewImageDownloadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF9357251CFD5FC800129B82 /* Build configuration list for PBXNativeTarget "SWebViewImageDownloadUITests" */;
+			buildPhases = (
+				BF9357121CFD5FC800129B82 /* Sources */,
+				BF9357131CFD5FC800129B82 /* Frameworks */,
+				BF9357141CFD5FC800129B82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF9357181CFD5FC800129B82 /* PBXTargetDependency */,
+			);
+			name = SWebViewImageDownloadUITests;
+			productName = SWebViewImageDownloadUITests;
+			productReference = BF9357161CFD5FC800129B82 /* SWebViewImageDownloadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF9356EA1CFD5FC500129B82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = shadow;
+				TargetAttributes = {
+					BF9356F11CFD5FC500129B82 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BF93570A1CFD5FC800129B82 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BF9356F11CFD5FC500129B82;
+					};
+					BF9357151CFD5FC800129B82 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BF9356F11CFD5FC500129B82;
+					};
+				};
+			};
+			buildConfigurationList = BF9356ED1CFD5FC500129B82 /* Build configuration list for PBXProject "SWebViewImageDownload" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF9356E91CFD5FC500129B82;
+			productRefGroup = BF9356F31CFD5FC500129B82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF9356F11CFD5FC500129B82 /* SWebViewImageDownload */,
+				BF93570A1CFD5FC800129B82 /* SWebViewImageDownloadTests */,
+				BF9357151CFD5FC800129B82 /* SWebViewImageDownloadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF9356F01CFD5FC500129B82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9357051CFD5FC700129B82 /* LaunchScreen.storyboard in Resources */,
+				BF9357321CFD6B3600129B82 /* html.html in Resources */,
+				BF9357021CFD5FC700129B82 /* Assets.xcassets in Resources */,
+				BF9357001CFD5FC700129B82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9357091CFD5FC800129B82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9357141CFD5FC800129B82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F320EC6833A4A1175FC45BE /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SWebViewImageDownload/Pods-SWebViewImageDownload-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A73E20B54775FAE88D62E53D /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C63869D917A269BECED44027 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SWebViewImageDownload/Pods-SWebViewImageDownload-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF9356EE1CFD5FC500129B82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9356FD1CFD5FC700129B82 /* ViewController.m in Sources */,
+				BF93572C1CFD63D700129B82 /* SWebViewImageDownload.m in Sources */,
+				BF9356FA1CFD5FC600129B82 /* AppDelegate.m in Sources */,
+				BF9356F71CFD5FC600129B82 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9357071CFD5FC800129B82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9357101CFD5FC800129B82 /* SWebViewImageDownloadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9357121CFD5FC800129B82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF93571B1CFD5FC800129B82 /* SWebViewImageDownloadUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF93570D1CFD5FC800129B82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF9356F11CFD5FC500129B82 /* SWebViewImageDownload */;
+			targetProxy = BF93570C1CFD5FC800129B82 /* PBXContainerItemProxy */;
+		};
+		BF9357181CFD5FC800129B82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF9356F11CFD5FC500129B82 /* SWebViewImageDownload */;
+			targetProxy = BF9357171CFD5FC800129B82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF9356FE1CFD5FC700129B82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF9356FF1CFD5FC700129B82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF9357031CFD5FC700129B82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF9357041CFD5FC700129B82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF93571D1CFD5FC800129B82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF93571E1CFD5FC800129B82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF9357201CFD5FC800129B82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 711422949785A5040EFCEB51 /* Pods-SWebViewImageDownload.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SWebViewImageDownload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shadow.com.SWebViewImageDownload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF9357211CFD5FC800129B82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A2623B0622FBA42D2B065FF /* Pods-SWebViewImageDownload.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SWebViewImageDownload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shadow.com.SWebViewImageDownload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF9357231CFD5FC800129B82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SWebViewImageDownloadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shadow.com.SWebViewImageDownloadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWebViewImageDownload.app/SWebViewImageDownload";
+			};
+			name = Debug;
+		};
+		BF9357241CFD5FC800129B82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SWebViewImageDownloadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shadow.com.SWebViewImageDownloadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWebViewImageDownload.app/SWebViewImageDownload";
+			};
+			name = Release;
+		};
+		BF9357261CFD5FC800129B82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SWebViewImageDownloadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shadow.com.SWebViewImageDownloadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SWebViewImageDownload;
+			};
+			name = Debug;
+		};
+		BF9357271CFD5FC800129B82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SWebViewImageDownloadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shadow.com.SWebViewImageDownloadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SWebViewImageDownload;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF9356ED1CFD5FC500129B82 /* Build configuration list for PBXProject "SWebViewImageDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF93571D1CFD5FC800129B82 /* Debug */,
+				BF93571E1CFD5FC800129B82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF93571F1CFD5FC800129B82 /* Build configuration list for PBXNativeTarget "SWebViewImageDownload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9357201CFD5FC800129B82 /* Debug */,
+				BF9357211CFD5FC800129B82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF9357221CFD5FC800129B82 /* Build configuration list for PBXNativeTarget "SWebViewImageDownloadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9357231CFD5FC800129B82 /* Debug */,
+				BF9357241CFD5FC800129B82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF9357251CFD5FC800129B82 /* Build configuration list for PBXNativeTarget "SWebViewImageDownloadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9357261CFD5FC800129B82 /* Debug */,
+				BF9357271CFD5FC800129B82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF9356EA1CFD5FC500129B82 /* Project object */;
+}
