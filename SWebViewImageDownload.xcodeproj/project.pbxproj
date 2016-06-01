@@ -11,13 +11,14 @@
 		BF9356F71CFD5FC600129B82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9356F61CFD5FC600129B82 /* main.m */; };
 		BF9356FA1CFD5FC600129B82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9356F91CFD5FC600129B82 /* AppDelegate.m */; };
 		BF9356FD1CFD5FC700129B82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9356FC1CFD5FC700129B82 /* ViewController.m */; };
-		BF9357001CFD5FC700129B82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9356FE1CFD5FC700129B82 /* Main.storyboard */; };
 		BF9357021CFD5FC700129B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF9357011CFD5FC700129B82 /* Assets.xcassets */; };
-		BF9357051CFD5FC700129B82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9357031CFD5FC700129B82 /* LaunchScreen.storyboard */; };
 		BF9357101CFD5FC800129B82 /* SWebViewImageDownloadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF93570F1CFD5FC800129B82 /* SWebViewImageDownloadTests.m */; };
 		BF93571B1CFD5FC800129B82 /* SWebViewImageDownloadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF93571A1CFD5FC800129B82 /* SWebViewImageDownloadUITests.m */; };
 		BF93572C1CFD63D700129B82 /* SWebViewImageDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = BF93572B1CFD63D700129B82 /* SWebViewImageDownload.m */; };
 		BF9357321CFD6B3600129B82 /* html.html in Resources */ = {isa = PBXBuildFile; fileRef = BF9357311CFD6B3600129B82 /* html.html */; };
+		BFC82D4A1CFE757300D34BA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC82D481CFE757300D34BA2 /* Main.storyboard */; };
+		BFC82D4D1CFE757800D34BA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC82D4B1CFE757800D34BA2 /* LaunchScreen.storyboard */; };
+		BFC82D4F1CFE758600D34BA2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFC82D4E1CFE758600D34BA2 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,15 +43,13 @@
 		8A2623B0622FBA42D2B065FF /* Pods-SWebViewImageDownload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWebViewImageDownload.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWebViewImageDownload/Pods-SWebViewImageDownload.release.xcconfig"; sourceTree = "<group>"; };
 		AB58E251290C49127A5CCF41 /* libPods-SWebViewImageDownload.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SWebViewImageDownload.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF9356F21CFD5FC500129B82 /* SWebViewImageDownload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWebViewImageDownload.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF9356F61CFD5FC600129B82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BF9356F81CFD5FC600129B82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		BF9356F91CFD5FC600129B82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BF9356FB1CFD5FC600129B82 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BF9356FC1CFD5FC700129B82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BF9356FF1CFD5FC700129B82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BF9357011CFD5FC700129B82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BF9357041CFD5FC700129B82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BF9357061CFD5FC700129B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF9356F61CFD5FC600129B82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../SWebViewImageDemo/main.m; sourceTree = "<group>"; };
+		BF9356F81CFD5FC600129B82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../SWebViewImageDemo/AppDelegate.h; sourceTree = "<group>"; };
+		BF9356F91CFD5FC600129B82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../SWebViewImageDemo/AppDelegate.m; sourceTree = "<group>"; };
+		BF9356FB1CFD5FC600129B82 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../SWebViewImageDemo/ViewController.h; sourceTree = "<group>"; };
+		BF9356FC1CFD5FC700129B82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../SWebViewImageDemo/ViewController.m; sourceTree = "<group>"; };
+		BF9357011CFD5FC700129B82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../SWebViewImageDemo/Assets.xcassets; sourceTree = "<group>"; };
+		BF9357061CFD5FC700129B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../SWebViewImageDemo/Info.plist; sourceTree = "<group>"; };
 		BF93570B1CFD5FC800129B82 /* SWebViewImageDownloadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWebViewImageDownloadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF93570F1CFD5FC800129B82 /* SWebViewImageDownloadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWebViewImageDownloadTests.m; sourceTree = "<group>"; };
 		BF9357111CFD5FC800129B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,7 +58,10 @@
 		BF93571C1CFD5FC800129B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF93572A1CFD63D700129B82 /* SWebViewImageDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWebViewImageDownload.h; sourceTree = "<group>"; };
 		BF93572B1CFD63D700129B82 /* SWebViewImageDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWebViewImageDownload.m; sourceTree = "<group>"; };
-		BF9357311CFD6B3600129B82 /* html.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = html.html; sourceTree = "<group>"; };
+		BF9357311CFD6B3600129B82 /* html.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = html.html; path = ../SWebViewImageDemo/html.html; sourceTree = "<group>"; };
+		BFC82D491CFE757300D34BA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SWebViewImageDemo/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		BFC82D4C1CFE757800D34BA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SWebViewImageDemo/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		BFC82D4E1CFE758600D34BA2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,11 +138,12 @@
 				BF9356FC1CFD5FC700129B82 /* ViewController.m */,
 				BF93572A1CFD63D700129B82 /* SWebViewImageDownload.h */,
 				BF93572B1CFD63D700129B82 /* SWebViewImageDownload.m */,
-				BF9356FE1CFD5FC700129B82 /* Main.storyboard */,
+				BFC82D481CFE757300D34BA2 /* Main.storyboard */,
 				BF9357011CFD5FC700129B82 /* Assets.xcassets */,
-				BF9357031CFD5FC700129B82 /* LaunchScreen.storyboard */,
+				BFC82D4B1CFE757800D34BA2 /* LaunchScreen.storyboard */,
 				BF9357061CFD5FC700129B82 /* Info.plist */,
 				BF9357311CFD6B3600129B82 /* html.html */,
+				BFC82D4E1CFE758600D34BA2 /* Default-568h@2x.png */,
 				BF9356F51CFD5FC600129B82 /* Supporting Files */,
 			);
 			path = SWebViewImageDownload;
@@ -278,10 +281,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF9357051CFD5FC700129B82 /* LaunchScreen.storyboard in Resources */,
+				BFC82D4A1CFE757300D34BA2 /* Main.storyboard in Resources */,
+				BFC82D4D1CFE757800D34BA2 /* LaunchScreen.storyboard in Resources */,
 				BF9357321CFD6B3600129B82 /* html.html in Resources */,
+				BFC82D4F1CFE758600D34BA2 /* Default-568h@2x.png in Resources */,
 				BF9357021CFD5FC700129B82 /* Assets.xcassets in Resources */,
-				BF9357001CFD5FC700129B82 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,18 +397,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BF9356FE1CFD5FC700129B82 /* Main.storyboard */ = {
+		BFC82D481CFE757300D34BA2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BF9356FF1CFD5FC700129B82 /* Base */,
+				BFC82D491CFE757300D34BA2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		BF9357031CFD5FC700129B82 /* LaunchScreen.storyboard */ = {
+		BFC82D4B1CFE757800D34BA2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BF9357041CFD5FC700129B82 /* Base */,
+				BFC82D4C1CFE757800D34BA2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -499,7 +503,7 @@
 			baseConfigurationReference = 711422949785A5040EFCEB51 /* Pods-SWebViewImageDownload.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SWebViewImageDownload/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SWebViewImageDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = shadow.com.SWebViewImageDownload;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -511,7 +515,7 @@
 			baseConfigurationReference = 8A2623B0622FBA42D2B065FF /* Pods-SWebViewImageDownload.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SWebViewImageDownload/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SWebViewImageDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = shadow.com.SWebViewImageDownload;
 				PRODUCT_NAME = "$(TARGET_NAME)";
