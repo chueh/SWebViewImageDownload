@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SWebViewImageDownload"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "取得網頁或HTML Body內的imageURL"
   s.homepage     = "https://github.com/chueh/SWebViewImageDownload"
   s.license      = "MIT"
