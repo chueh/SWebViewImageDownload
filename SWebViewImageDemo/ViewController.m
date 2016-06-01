@@ -23,9 +23,9 @@
 //    NSURL *url = [[NSBundle mainBundle] URLForResource:@"html" withExtension:@"html"];
 //    NSString *html = [[NSString alloc] initWithContentsOfURL:url encoding:NSUTF8StringEncoding error:nil];
 
-    NSString *html = @"http://yao55.pixnet.net/blog/post/30432131";
+    NSString *url = @"http://yao55.pixnet.net/blog/post/30432131";
     
-    SWebViewImageDownload *webImageDownload = [[SWebViewImageDownload alloc] initWithHTMLString:html stringType:StringTypeWithURL];
+    SWebViewImageDownload *webImageDownload = [[SWebViewImageDownload alloc] initWithHTMLString:url stringType:StringTypeWithURL];
     NSLog(@"%@",webImageDownload.webImageURLs);
     _photos = [NSMutableArray new];
     for (NSString *urlString in webImageDownload.webImageURLs) {
