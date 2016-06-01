@@ -44,6 +44,7 @@
     }
     NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:pattern options:NSRegularExpressionAllowCommentsAndWhitespace error:nil];
     NSArray *result = [regex matchesInString:_htmlString options:NSMatchingReportCompletion range:NSMakeRange(0, _htmlString.length)];
+    NSLog(@"%@",result);
 
     NSMutableDictionary *urlDicts = [[NSMutableDictionary alloc] init];
     NSString *docPath = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents"];
